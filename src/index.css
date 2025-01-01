@@ -5,6 +5,4 @@
 @tailwind utilities;
 :root{
     font-family: "Inter" sans-serif;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
