@@ -1,4 +1,3 @@
-import React from "react";
 import { CONTACT } from "../constants";
 import { TfiEmail } from "react-icons/tfi";
 import { FiPhoneForwarded } from "react-icons/fi";

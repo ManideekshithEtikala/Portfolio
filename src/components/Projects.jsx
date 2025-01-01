@@ -1,4 +1,3 @@
-import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
 const Projects = () => {
