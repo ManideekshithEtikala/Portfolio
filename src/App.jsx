@@ -3,6 +3,7 @@ import About from "./components/About";
 import ExperienceIntern from "./components/ExperienceIntern";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Technologies/>
         <ExperienceIntern/>
+        <Projects/>
         </div>
       </div>
 
