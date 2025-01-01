@@ -1,19 +1,19 @@
-import logo from '../assets/profilepic1.png'
+import logo from '../assets/logo.png'
 import { FaLinkedin } from "react-icons/fa";
 import {FaGithub} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
 import { FaXTwitter } from "react-icons/fa6";
 const Navbar = () => {
   return (
-    <nav className='mb-20 flex items-center justify-between py-7'>
+    <nav className='mb-10 flex items-center justify-between py-8 '>
         <div className='flex  flex-shrink-0 items-center'>
-            <img src={logo} alt='logo'className='h-12 w-12 rounded-full'/>
+            <img src={logo} alt='logo'className='h-10 w-10 md:h-14 md:w-14 rounded-full'/>
         </div>
         <div className='m-8 items-center justify-center gap-4 text-2xl flex'>
-          <FaGithub color='white'/>
-          <FaLinkedin color='white'/>
-          <FaInstagram color='white'/>
-          <FaXTwitter color='white'/>
+          <FaGithub color='white' className=' w-4 h-4 md:w-6 md:h-6 hover:cursor-pointer'/>
+          <FaLinkedin color='white'className='w-6 h-6'/>
+          <FaInstagram color='white'className='w-6 h-6'/>
+          <FaXTwitter color='white'className='w-6 h-6'/>
         </div>
     </nav>
   )
