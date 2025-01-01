@@ -5,7 +5,7 @@ import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { RiPhpLine } from "react-icons/ri";
-import {animate, motion} from 'framer-motion'
+import { motion} from 'framer-motion'
 
 const iconVariants = (duration)=>({
     initial:{y:-10},
