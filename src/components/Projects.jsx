@@ -25,6 +25,7 @@ const Projects = () => {
                 width={150}
                 height={150}
                 alt={project.title}
+                onClick={() => window.open(project.link)}
                 className="mb-6 rounded"
               />
             </motion.div>
