@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const certifications = [
   {
     id: 1,
-    title: "Certificate of Participation Hackfiniti",
+    title: "Certificate of Participation Hackfinity",
     organization: "Infinity Tech",
     year: 2025,
     image: '/assets/hackathon.jpeg',
