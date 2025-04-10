@@ -2,7 +2,7 @@ import project1 from '../assets/project1.avif'
 import project2 from '../assets/project2.jpeg'
 import project3 from '../assets/project3.jpeg'
 import project4 from '../assets/project4.jpg'
-
+import experience from '../assets/experience.jpg'
 export const HERO_CONTENT = `Welcome to my portfolio—a place where creativity meets technology, and ideas evolve into impactful solutions. I am a passionate Full Stack Web Developer committed to building seamless, user-centric web applications that empower businesses and individuals alike.
 With both front-end aesthetics and back-end robustness at my fingertips, I transform challenges into elegant, scalable solutions. From crafting pixel-perfect interfaces to designing efficient APIs, my work is rooted in precision, innovation, and purpose`;
 
@@ -12,18 +12,12 @@ Driven by a love for problem-solving and an acute attention to detail, I approac
 
 export const EXPERIENCES = [
   {
-    year: "2024 - December",
-    role: "Data Visualisation Intern: Empowering Business with Effective Insights",
-    company: "Tata Consultancy Services",
-    description: `Completed data visualisation in tata consultancy service company with business empowering and effective insights`,
-    technologies: ["PowerBI", "Excell", "Forage"],
-  },
-  {
     year: "2024 November - 2024 December",
     role: "Full Stack Web Developemet Intern",
     company: "Unified Mentors",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    technologies: ["HTML", "CSS", "React.js", "MySQL","MERN stack"],
+    image: experience
   }
 ];
 
@@ -34,6 +28,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    link:""
   },
   {
     title: "Task Management App",
@@ -41,20 +36,30 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "React", "mongodb", "Node.js"],
+    link:''
   },
   {
-    title: "Portfolio Website",
+    title: "Raise-Requital",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
+      "A platform which bridges the gap between investors and entrepreneurs, allowing them to connect and collaborate on innovative projects.",
+    technologies: ["MERN stack", "Socket.io", "Calendly", "Google auth"],
+    link:'https://raise-requital.vercel.app/'
   },
   {
     title: "Social Media Platform",
     image: project4,
     description:
       "A platform used to interact with other users, post content, and engage in conversations.",
-    technologies: ["HTML", "CSS", "next.js", "Express", "Firebase","Rest api","Google auth"],
+    technologies: ["Next.js", "MERN stack", "Firebase","Rest api","Google auth"],
+    link:'https://socialmedia-app-seven.vercel.app/',
+  },
+  {
+    title: "News-App",
+    image: project4,
+    description:
+      "A Website which updates and gives daily news to the users and also allows them to search for the news they want. using news api.",
+    technologies: ["React.js", "Css", "Mongodb","Rapid api"],
   },
 ];
 
