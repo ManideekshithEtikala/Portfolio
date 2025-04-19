@@ -60,6 +60,7 @@ export const PROJECTS = [
     description:
       "A Website which updates and gives daily news to the users and also allows them to search for the news they want. using news api.",
     technologies: ["React.js", "Css", "Mongodb","Rapid api"],
+    link:"https://news-today-smoky.vercel.app/"
   },
 ];
 
