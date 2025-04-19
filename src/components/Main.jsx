@@ -14,7 +14,7 @@ const container = (delay) => ({
 });
 const Main = () => {
   const [text] = useTypewriter({
-    words: ["Full Stack WebDeveloper", "Java Developer", "Frontend Developer"],
+    words: ["Full Stack WebDeveloper", "Java", "React JS"],
     loop: true,
     typeSpeed: 120,
   });
