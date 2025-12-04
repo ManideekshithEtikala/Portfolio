@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about.jpeg";
+import Profile from "../assets/Profile.jpg";
 import { ABOUT_TEXT } from "../constants";
 import {motion} from "framer-motion"
 const About = () => {
@@ -15,8 +15,8 @@ const About = () => {
         transition={{duration:0.5}} className="w-full lg:w-1/2 lg:p-8 ">
           <div className="flex items-center justify-center ">
           <img
-            src={aboutImg}
-            className="rounded-2xl h-60 md:h-96 lg:h-[24rem] hover:shadow-xl hover:shadow-white/50 transition-shadow duration-300 hover:ease-in-out" 
+            src={Profile}
+            className="rounded-2xl h-60 md:h-96 lg:h-[24rem] hover:shadow-2xl hover:shadow-white/50 transition-shadow duration-300 hover:ease-in-out" 
             alt="aboutmeimage"
           />
           </div>

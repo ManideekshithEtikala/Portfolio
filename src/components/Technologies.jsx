@@ -4,8 +4,8 @@ import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 import { FaJava } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { RiPhpLine } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { FaSquareGithub } from "react-icons/fa6";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -85,7 +85,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-2 border-neutral-900 p-4"
         >
-          <RiPhpLine className="text-5xl md:text-7xl text-black bg-[#7377ae] rounded-full" />
+          <FaSquareGithub className="text-5xl md:text-7xl text-white bg-[black] rounded-full" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
