@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sol Outlaw - Player Character
+* source:	https://sketchfab.com/3d-models/sol-outlaw-player-character-ce44489bdde74467bb79a765338a1e25
+* author:	Jolie Morris (https://sketchfab.com/jolie-g)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sol Outlaw - Player Character" (https://sketchfab.com/3d-models/sol-outlaw-player-character-ce44489bdde74467bb79a765338a1e25) by Jolie Morris (https://sketchfab.com/jolie-g) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
