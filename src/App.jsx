@@ -7,27 +7,27 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import Certification from "./components/Certification";
+import ParallaxBackground from "./components/Background";
+
 function App() {
   return (
     <>
-      <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-slate-200 selection:text-black">
-        <div className="fixed top-0 -z-10 h-full w-full">
-
-        <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+      <ParallaxBackground />
+      <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-slate-200 selection:text-black relative z-10">
+        <div className="fixed top-0 -z-10 h-full w-full pointer-events-none">
+          <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,rgba(0,0,0,0.7)_40%,rgba(99,0,238,0.3)_100%)]"></div>
         </div>
-        <div className="container mx-auto px-8">
-
-        <Navbar />
-        <Main />
-        <About />
-        <Technologies/>
-        <ExperienceIntern/>
-        <Projects/>
-        <Certification/>
-        <Contact/>
+        <div className="container mx-auto px-8 relative z-10">
+          <Navbar />
+          <Main />
+          <About />
+          <Technologies />
+          <ExperienceIntern />
+          <Projects />
+          <Certification />
+          <Contact />
         </div>
       </div>
-
     </>
   );
 }
